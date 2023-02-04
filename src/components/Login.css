@@ -1,0 +1,21 @@
+.place {
+  background-color: #f5fdfd;
+  height: 20vw;
+  width: 30vw;
+  position: absolute;
+  border-radius: 0.5rem;
+  left: 60vw;
+  top: 35vh;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttn {
+  width: 8vw;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
