@@ -2,48 +2,28 @@ import React from "react";
 
 export const LoginPage = () => {
   return (
-    <div className="fo">
-      <div className="formholder">
-        <form>
-          <div className="conta">
-            <label className="label-f" htmlFor="email">
-              E-Mail Address
-            </label>
-            <br />
-            <input
-              type="email"
-              id="email"
-              className="input-field"
-              placeholder="Enter your email"
-              name="email"
-            />
-          </div>
-
-          <div className="conta">
-            <label className="label-f" htmlFor="password">
-              Password
-            </label>
-            <br />
-            <input
-              type="password"
-              id="password"
-              className="input-field"
-              placeholder="Enter your password"
-              name="password"
-            />
-          </div>
+    <div className="bro">
+      <div className="form" action="">
+        <h2 className="heading">Login</h2>
+        <br />
+        <div className="container">
+          <label htmlFor="" className="uname">
+            <b>Username</b>
+          </label>
           <br />
-
-          <div className="conta">
-            <a className="sign-in" href="">
-              Sign In
-            </a>
-            <a className="register" href="/register">
-              Register
-            </a>
-            {/* <Link to="/signup">Create an account</Link> */}
-          </div>
-        </form>
+          <input type="text" placeholder="" name="uname" required></input>
+          <br />
+          <label for="psw">
+            <b>Password</b>
+          </label>
+          <br />
+          <input type="password" placeholder="" name="psw" required></input>
+          <br />
+          <br />
+          <button className="submit" type="submit">
+            Login
+          </button>
+        </div>
       </div>
     </div>
   );

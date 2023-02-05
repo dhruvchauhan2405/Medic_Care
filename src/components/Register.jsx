@@ -2,64 +2,34 @@ import React from "react";
 
 export const Register = () => {
   return (
-    <div className="fo">
-      <div className="formholder">
-        <form>
-          <div className="conta">
-            <label className="label-f" htmlFor="name">
-              Full Name
-            </label>
-            <br />
-            <input
-              type="text"
-              className="input-field"
-              id="name"
-              placeholder="Enter your full name"
-              name="name"
-            />
-          </div>
-          <div className="conta">
-            <label className="label-f" htmlFor="password">
-              Password
-            </label>
-            <br />
-            <input
-              type="password"
-              className="input-field"
-              id="password"
-              placeholder="Enter your password"
-              name="password"
-            />
-          </div>
-          <div className="conta">
-            <label className="label-f" htmlFor="email">
-              E-Mail Address
-            </label>
-            <br />
-            <input
-              type="email"
-              id="email"
-              className="input-field"
-              placeholder="Enter your email"
-              name="email"
-            />
-          </div>
-
-          <div className="conta">
-            <input type="checkbox" name="hasAgreed" /> I agree all statements in{" "}
-            <a href="">terms of service</a>
-          </div>
-
-          <div className="conta">
-            <a href="" className="sign-in btn btn-primary">
-              Sign Up
-            </a>
-            {/* <Link to="/signin">I'm already member</Link> */}
-            <a className="btn btn-primary" href="/login">
-              I'm already a member
-            </a>
-          </div>
-        </form>
+    <div className="bro">
+      <div className="form" action="">
+        <h2 className="heading">Sign-up</h2>
+        <br />
+        <div className="container">
+          <label htmlFor="" className="uname">
+            <b>Username</b>
+          </label>
+          <br />
+          <input type="text" placeholder="" name="uname" required></input>
+          <br />
+          <label for="psw">
+            <b>Password</b>
+          </label>
+          <br />
+          <input type="password" placeholder="" name="psw" required></input>
+          <br />
+          <label for="psw">
+            <b>Confirm Password</b>
+          </label>
+          <br />
+          <input type="password" placeholder="" name="psw" required></input>
+          <br />
+          <br />
+          <button className="submit" type="submit">
+            Register
+          </button>
+        </div>
       </div>
     </div>
   );

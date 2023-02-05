@@ -69,6 +69,10 @@ export const New = () => {
             <label for="vehicle3"> Alcohol</label>
             <br></br>
 
+            <label htmlFor="">Tooth number</label>
+            <input type="text" />
+            <br />
+
             <input type="submit" value="Submit"></input>
           </form>
         </div>

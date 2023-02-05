@@ -5,7 +5,7 @@
   font-size: 1.09rem;
 }
 .nav-link:hover {
-  color: #04a6c2 !important;
+  color: rgb(18, 103, 103) !important;
 }
 
 .nav-link {
@@ -19,21 +19,21 @@
 .navbar-brand {
   font-family: "Josefin sans";
   margin-left: 2rem;
-  color: #24a08e;
+  color: rgb(18, 103, 103);
   font-weight: 700;
   font-size: 2rem;
 }
 
 .navbar-brand:hover {
-  color: #24a08e;
+  color: rgb(18, 103, 103);
 }
 
 .active {
-  color: #04a6c2 !important;
+  color: #fa4e59 !important;
 }
 
 .sign-in {
-  background-color: #04a7c3;
+  background-color: rgb(18, 103, 103);
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
   width: 7rem;
@@ -46,5 +46,10 @@
 }
 
 .navbar {
-  background-color: #f5fdfd !important;
+  background-color: white !important;
+}
+
+#video1 {
+  position: absolute;
+  z-index: -1;
 }

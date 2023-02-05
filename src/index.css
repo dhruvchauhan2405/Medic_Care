@@ -1,17 +1,45 @@
-.formholder {
-  background-color: #f5fdfd;
-  width: 30vw;
-  height: 50vh;
-  border-radius: 1.5rem;
-  /* position: absolute; */
+.heading {
+  font-size: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 5rem;
+  border-radius: 1rem;
+  color: rgb(18, 103, 103);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bro {
+  background-color: rgb(18, 103, 103);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10rem;
+  height: 87vh;
+  width: 100vw;
 }
 
-.fo {
-  position: absolute;
+.submit {
+  background-color: rgb(18, 103, 103);
+  color: white;
+  border: none;
+  font-size: 1.4rem;
+  padding: 0.4rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.bro2 {
+  background-color: rgb(18, 103, 103);
   display: flex;
   justify-content: center;
   align-items: center;

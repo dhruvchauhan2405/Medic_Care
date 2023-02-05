@@ -1,21 +1,25 @@
-.place {
-  background-color: #f5fdfd;
-  height: 20vw;
-  width: 30vw;
-  position: absolute;
-  border-radius: 0.5rem;
-  left: 60vw;
-  top: 35vh;
-  display: flexbox;
+.cont {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 15vw;
+  /* background-color: #fa4e59; */
+  padding: 2rem;
+  border-radius: 2rem;
 }
 
-.buttn {
-  width: 8vw;
+.cont a {
+  font-size: 2vw;
+  color: white;
+  background-color: rgb(18, 103, 103);
+  border: none;
+  border: 1px solid;
+  font-weight: 500;
+  border-color: rgb(18, 103, 103);
 }
 
-.center {
-  justify-content: center;
-  align-items: center;
+.cont a:hover {
+  color: rgb(18, 103, 103);
+  background-color: white !important;
 }
